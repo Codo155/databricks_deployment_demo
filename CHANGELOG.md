@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v0.4.0 (2025-02-06)
+
+### Features
+
+- Furry
+  ([`5ec072c`](https://github.com/Codo155/databricks_deployment_demo/commit/5ec072c8090c5e2adc5d891744aa5a72610de4be))
+
+- **Marvel**: Add Captain ([#10](https://github.com/Codo155/databricks_deployment_demo/pull/10),
+  [`ec41002`](https://github.com/Codo155/databricks_deployment_demo/commit/ec41002aab77a0c9a1788866099061559273f5ad))
+
+
 ## v0.3.0 (2025-02-06)
 
 ### Continuous Integration
