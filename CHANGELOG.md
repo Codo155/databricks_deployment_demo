@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.0 (2025-02-06)
+
+### Features
+
+- **Marvel**: Add Hawkeye ([#5](https://github.com/Codo155/databricks_deployment_demo/pull/5),
+  [`4b06c6c`](https://github.com/Codo155/databricks_deployment_demo/commit/4b06c6c3db9a67cb16bf35aece3e630a6b9aceaa))
+
+
 ## v0.1.0 (2025-02-06)
 
 ### Bug Fixes
