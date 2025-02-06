@@ -1,15 +1,29 @@
 # CHANGELOG
 
 
+## v0.5.0 (2025-02-06)
+
+### Features
+
+- Odin ([#13](https://github.com/Codo155/databricks_deployment_demo/pull/13),
+  [`82619f3`](https://github.com/Codo155/databricks_deployment_demo/commit/82619f31ba3016694bd78f00fc1c089fb9f83095))
+
+
 ## v0.4.0 (2025-02-06)
 
 ### Features
+
+- Black widow
+  ([`5decc44`](https://github.com/Codo155/databricks_deployment_demo/commit/5decc449b3660068168735f71e5dce71ce53e270))
 
 - Furry
   ([`5ec072c`](https://github.com/Codo155/databricks_deployment_demo/commit/5ec072c8090c5e2adc5d891744aa5a72610de4be))
 
 - **Marvel**: Add Captain ([#10](https://github.com/Codo155/databricks_deployment_demo/pull/10),
   [`ec41002`](https://github.com/Codo155/databricks_deployment_demo/commit/ec41002aab77a0c9a1788866099061559273f5ad))
+
+- **Marvel**: Oh Captain my Captain
+  ([`836e6ef`](https://github.com/Codo155/databricks_deployment_demo/commit/836e6ef234df9a5d796327045d307f9d8a5b9979))
 
 
 ## v0.3.0 (2025-02-06)
