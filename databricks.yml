@@ -1,0 +1,28 @@
+# This is a Databricks asset bundle definition for databricks_ci_cd_test.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+# The name of the bundle. run `databricks bundle schema` to see the full bundle settings schema.
+bundle:
+  name: databricks_demo
+    
+include:
+  - resources/*.yml
+
+# Deployment Target specific values for workspace
+targets:
+  blz3400:
+    default: true
+    workspace:
+      host:  https://adb-2464441067494946.6.azuredatabricks.
+      #/Workspace/Users/luo14938@gmail.com/.bundle/databricks_ci_cd_test/dev/files
+      root_path: /Users/${workspace.current_user.userName}/.bundle/${bundle.target}/${bundle.name}
+   
+  blz9000:
+    mode: production
+    workspace:
+      host: https://adb-2464441067494946.6.azuredatabricks.
+      # If this path results in an error, please make sure you have a recent version of the CLI installed.
+      root_path: /Users/${workspace.current_user.userName}/.bundle/${bundle.target}/${bundle.name}
+    run_as:
+      # This can run as a specific user or service principal in production.
+      service_principal_name: "Demo_SP"
