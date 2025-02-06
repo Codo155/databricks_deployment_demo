@@ -12,7 +12,7 @@ on:
 
 jobs:
   release:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.release.outputs.version }}
       released: ${{ steps.release.outputs.released }}
@@ -24,8 +24,22 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: print 
-        run: echo "${{ secrets.GH_TOKEN }}"
+      - name: Databricks Asset Bundles Deploy
+        uses: lumiastudios/Databricks-Asset-Bundles-Deploy@v1.0.0
+        with:
+          # The directory containing the Databricks asset bundle configuration
+          working-directory: .
+          # The Databricks workspace host URL
+          databricks-host: https://adb-2464441067494946.6.azuredatabricks.net/?o=2464441067494946
+          # The target environment for the Databricks asset bundle deployment
+          databricks-bundle-env: blz3400
+          # The type of authentication to use (token or oauth)
+          authentication-type: oauth
+          # Databricks personal access token for authentication
+          databricks-client-secret: ${{secrets.DATABRICKS_TOKEN }}
+          # Databricks OAuth client ID for authentication
+          databricks-client-id: ${{secrets.CLIENT_ID }}
+          
       - name: Release
         id: release
         uses: python-semantic-release/python-semantic-release@master
@@ -44,22 +58,6 @@ jobs:
             echo "No release created"
             exit 1
           fi
- 
-      - name: Databricks Asset Bundles Deploy
-        uses: lumiastudios/Databricks-Asset-Bundles-Deploy@v1.0.0
-        with:
-          # The directory containing the Databricks asset bundle configuration
-          working-directory: .
-          # The Databricks workspace host URL
-          databricks-host: https://adb-2464441067494946.6.azuredatabricks.net/?o=2464441067494946
-          # The target environment for the Databricks asset bundle deployment
-          databricks-bundle-env: blz3400
-          # The type of authentication to use (token or oauth)
-          authentication-type: oauth
-          # Databricks personal access token for authentication
-          databricks-client-secret: ${{secrets.DATABRICKS_TOKEN }}
-          # Databricks OAuth client ID for authentication
-          databricks-client-id: ${{secrets.CLIENT_ID }}
 
        
            
