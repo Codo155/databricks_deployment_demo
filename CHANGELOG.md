@@ -1,6 +1,21 @@
 # CHANGELOG
 
 
+## v0.3.0 (2025-02-06)
+
+### Continuous Integration
+
+- Fix ([#6](https://github.com/Codo155/databricks_deployment_demo/pull/6),
+  [`e93637e`](https://github.com/Codo155/databricks_deployment_demo/commit/e93637e56238900cc05fdabd65a2b73c6480b4e5))
+
+### Features
+
+- **Marvel**: Added Green Bean ([#8](https://github.com/Codo155/databricks_deployment_demo/pull/8),
+  [`c9a3164`](https://github.com/Codo155/databricks_deployment_demo/commit/c9a316460cb7b0949099e4ccd021faa5d78ad738))
+
+He is a cheap copy of Captain America
+
+
 ## v0.2.0 (2025-02-06)
 
 ### Features
