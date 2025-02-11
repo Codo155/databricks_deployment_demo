@@ -13,16 +13,19 @@ targets:
   blz3400:
     default: true
     workspace:
-      host:  https://adb-2464441067494946.6.azuredatabricks.
+      host:  https://adb-2464441067494946.6.azuredatabricks
       #/Workspace/Users/luo14938@gmail.com/.bundle/databricks_ci_cd_test/dev/files
       root_path: /Users/${workspace.current_user.userName}/.bundle/${bundle.target}/${bundle.name}
+    run_as:
+      # This can run as a specific user or service principal in production.
+      service_principal_name: "d075a58fdb5cb63d660a78fab83dd6d3d5a639d75e90070168b265b607d204d0"
    
   blz9000:
     mode: production
     workspace:
-      host: https://adb-2464441067494946.6.azuredatabricks.
+      host: https://adb-2464441067494946.6.azuredatabricks
       # If this path results in an error, please make sure you have a recent version of the CLI installed.
       root_path: /Users/${workspace.current_user.userName}/.bundle/${bundle.target}/${bundle.name}
     run_as:
       # This can run as a specific user or service principal in production.
-      service_principal_name: "Demo_SP"
+      service_principal_name: "d075a58fdb5cb63d660a78fab83dd6d3d5a639d75e90070168b265b607d204d0"
