@@ -1,6 +1,27 @@
 # CHANGELOG
 
 
+## v0.6.0 (2025-02-11)
+
+### Bug Fixes
+
+- Remove marvel from Marvel ([#15](https://github.com/Codo155/databricks_deployment_demo/pull/15),
+  [`9cfa894`](https://github.com/Codo155/databricks_deployment_demo/commit/9cfa8941226611ae84616c4c80b80e8115550c14))
+
+### Continuous Integration
+
+- Databricks.yml update
+  ([`019618d`](https://github.com/Codo155/databricks_deployment_demo/commit/019618d90a43e1f0aa74c0e0761e04b198d55af6))
+
+- Fix yml
+  ([`b34ed94`](https://github.com/Codo155/databricks_deployment_demo/commit/b34ed946c8c4f051433f6c90227e95911ea8dd67))
+
+### Features
+
+- Add Marvel Again ([#16](https://github.com/Codo155/databricks_deployment_demo/pull/16),
+  [`a67dcbc`](https://github.com/Codo155/databricks_deployment_demo/commit/a67dcbcd329bb7de983d0838ea4b67956721d575))
+
+
 ## v0.5.0 (2025-02-06)
 
 ### Features
