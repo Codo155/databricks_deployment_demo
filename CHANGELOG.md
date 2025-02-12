@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.7.0 (2025-02-12)
+
+### Features
+
+- Bierlager erstellt
+  ([`4fc541e`](https://github.com/Codo155/databricks_deployment_demo/commit/4fc541e9dbb7faa5531f68f64a93821e746baadc))
+
+
 ## v0.6.1 (2025-02-12)
 
 ### Bug Fixes
