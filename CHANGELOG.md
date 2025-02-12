@@ -1,6 +1,21 @@
 # CHANGELOG
 
 
+## v0.6.1 (2025-02-12)
+
+### Bug Fixes
+
+- Remove test from dev ([#17](https://github.com/Codo155/databricks_deployment_demo/pull/17),
+  [`88014d8`](https://github.com/Codo155/databricks_deployment_demo/commit/88014d86f859adc4db4035341f2537e43a35e3e6))
+
+Co-authored-by: Luo, Odo <odo.luo@accenture.com>
+
+### Testing
+
+- Add test
+  ([`dced849`](https://github.com/Codo155/databricks_deployment_demo/commit/dced849397b5b44e611def1e05080a0ef31fbf56))
+
+
 ## v0.6.0 (2025-02-11)
 
 ### Bug Fixes
