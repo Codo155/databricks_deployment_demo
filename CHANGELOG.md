@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v0.8.0 (2025-02-18)
+
+### Features
+
+- **resources**: Add demo workflow
+  ([#19](https://github.com/Codo155/databricks_deployment_demo/pull/19),
+  [`e929650`](https://github.com/Codo155/databricks_deployment_demo/commit/e9296505990348d631e453c43c930ef92d4187dd))
+
+
 ## v0.7.0 (2025-02-12)
 
 ### Features
