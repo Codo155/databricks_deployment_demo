@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v0.9.0 (2025-02-18)
+
+### Features
+
+- **Bierlager**: Add Hello World Egger
+  ([#23](https://github.com/Codo155/databricks_deployment_demo/pull/23),
+  [`7844729`](https://github.com/Codo155/databricks_deployment_demo/commit/784472937131114931ada054324c0e0c3271ebd8))
+
+
 ## v0.8.0 (2025-02-18)
 
 ### Features
