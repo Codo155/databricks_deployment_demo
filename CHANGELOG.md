@@ -1,6 +1,29 @@
 # CHANGELOG
 
 
+## v0.9.1 (2025-02-20)
+
+### Bug Fixes
+
+- Fix Stuff
+  ([`853c143`](https://github.com/Codo155/databricks_deployment_demo/commit/853c143f96a9ad604917c45484416e40b43d0919))
+
+* fix:Adjust Workflow
+
+* feat: I am Egger
+
+---------
+
+Co-authored-by: Luo, Odo <odo.luo@accenture.com>
+
+### Testing
+
+- Rename Workflow
+  ([`a399bb8`](https://github.com/Codo155/databricks_deployment_demo/commit/a399bb80a87b2b1d0446d9a4092b680e61acf076))
+
+Co-authored-by: Luo, Odo <odo.luo@accenture.com>
+
+
 ## v0.9.0 (2025-02-18)
 
 ### Features
